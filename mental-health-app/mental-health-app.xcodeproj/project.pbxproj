@@ -15,6 +15,8 @@
 		55FD7F021E9EE80200E80DD8 /* mental_health_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F011E9EE80200E80DD8 /* mental_health_appUITests.swift */; };
 		55FD7F101E9EE87600E80DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FD7F0F1E9EE87600E80DD8 /* Main.storyboard */; };
 		55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */; };
+		55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */; };
+		55FD7F191E9F057E00E80DD8 /* ActivityForMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		55FD7F031E9EE80200E80DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55FD7F0F1E9EE87600E80DD8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoodViewController.swift; path = ../MoodViewController.swift; sourceTree = "<group>"; };
+		55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityForMoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */,
+				55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */,
+				55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -270,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FD7F191E9F057E00E80DD8 /* ActivityForMoodViewController.swift in Sources */,
 				55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */,
+				55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */,
 				55FD7EE21E9EE80200E80DD8 /* AppDelegate.swift in Sources */,
 				55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */,
 			);

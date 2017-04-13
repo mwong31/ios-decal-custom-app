@@ -13,9 +13,33 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     @IBOutlet weak var moodCollection: UICollectionView!
     
+    var selectedMood : String?
+    
+    var moodsArray : [Int: String] =
+        [
+            0 : "I'm feeling tired",
+            1 : "I'm feeling adventurous",
+            2 : "I just got a bad grade back",
+            3 : "I'm hungry",
+            4 : "I want to relax"
+    ]
     
     
+    var moodsDict: [String : UIImage] = [
+        "I'm feeling tired" : #imageLiteral(resourceName: "snowflake"),
+        "I'm feeling adventurous" : #imageLiteral(resourceName: "adventurous"),
+        "I just got a bad grade back" : #imageLiteral(resourceName: "flower bunch yellow"),
+        "I'm hungry" : #imageLiteral(resourceName: "snowflake"),
+        "I want to relax" : #imageLiteral(resourceName: "snowflake")]
     
+    
+    var moodsResult : [String : String] = [
+        "I'm feeling tired" : "If you're feeling tired...",
+        "I'm feeling adventurous" : "If you're feeling adventurous...",
+        "I just got a bad grade back" : "If you're down about a bad grade...",
+        "I'm hungry" : "If you're hungry",
+        "I want to relax" : "If you want to relax..."
+    ]
     
     
     override func viewDidLoad() {
@@ -32,28 +56,34 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        <#code#>
+        return moodsDict.count
     }
-    
-    
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        let currMood : String = moodsArray[indexPath.row]!
+        let currImage : UIImage = moodsDict[currMood]!
+        let currCell = moodCollection.dequeueReusableCell(withReuseIdentifier: "mood", for: indexPath) as! MoodCollectionViewCell
+        currCell.moodImage.image = currImage
+        currCell.moodLabel.text = currMood
+        return currCell
     }
-    
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        <#code#>
+        selectedMood = moodsArray[indexPath.row]
+        performSegue(withIdentifier: "activitiesForMood", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        if let identifier = segue.identifier {
+            if identifier == "activitesForMood" {
+                if let dest = segue.destination as? ActivityForMoodViewController {
+                    print (moodsResult[selectedMood!])
+                    dest.selectedMood = moodsResult[selectedMood!]!
+                }
+            }
+        }
     }
-    
-    
 
     /*
     // MARK: - Navigation
