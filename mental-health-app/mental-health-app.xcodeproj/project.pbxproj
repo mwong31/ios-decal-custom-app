@@ -108,7 +108,7 @@
 				55FD7EE31E9EE80200E80DD8 /* ViewController.swift */,
 				55FD7EE81E9EE80200E80DD8 /* Assets.xcassets */,
 				55FD7F151E9EEC1400E80DD8 /* Controllers */,
-				55FD7EEA1E9EE80200E80DD8 /* LaunchScreen.storyboard */,
+				55FD7F1A1E9F0DB500E80DD8 /* Cells */,
 				55FD7EED1E9EE80200E80DD8 /* Info.plist */,
 			);
 			path = "mental-health-app";
@@ -137,9 +137,17 @@
 			children = (
 				55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */,
 				55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */,
-				55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		55FD7F1A1E9F0DB500E80DD8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				55FD7EEA1E9EE80200E80DD8 /* LaunchScreen.storyboard */,
+				55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -13,7 +13,7 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     @IBOutlet weak var moodCollection: UICollectionView!
     
-    var selectedMood : String?
+    var selectedMood : String = ""
     
     var moodsArray : [Int: String] =
         [
@@ -70,16 +70,16 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        selectedMood = moodsArray[indexPath.row]
+        selectedMood = moodsArray[indexPath.row]!
         performSegue(withIdentifier: "activitiesForMood", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
-            if identifier == "activitesForMood" {
+            if identifier == "activitiesForMood" {
                 if let dest = segue.destination as? ActivityForMoodViewController {
-                    print (moodsResult[selectedMood!])
-                    dest.selectedMood = moodsResult[selectedMood!]!
+                    print (moodsResult[selectedMood])
+                    dest.selectedMood = moodsResult[selectedMood]
                 }
             }
         }

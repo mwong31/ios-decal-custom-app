@@ -12,12 +12,22 @@ class ActivityForMoodViewController: UIViewController {
 
     @IBOutlet weak var currentMood: UILabel!
     
-    var selectedMood : String = ""
+    @IBOutlet weak var activitiesTable: UITableView!
+    
+    var selectedMood : String?
+    
+    var activityOptions : [Int: String] = [
+        0 : "music",
+        1 : "eat",
+        2 : "diy"
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //activitiesTable.delegate = self
+        //activitiesTable.dataSource = self
         
+        currentMood.text = selectedMood
         
         // Do any additional setup after loading the view.
     }
@@ -27,7 +37,25 @@ class ActivityForMoodViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return activityOptions.count
+    }
 
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        <#code#>
+//    }
+//    
+    
+    
+    // send user to the activity optionthey selected 
+    // or should we have button that users can explicitly click
+//    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+//        <#code#>
+//    }
+//    
+    
+    
+    
     /*
     // MARK: - Navigation
 
