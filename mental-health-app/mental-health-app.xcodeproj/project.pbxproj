@@ -105,6 +105,7 @@
 			children = (
 				55FD7EE11E9EE80200E80DD8 /* AppDelegate.swift */,
 				55FD7F0F1E9EE87600E80DD8 /* Main.storyboard */,
+				55FD7EE31E9EE80200E80DD8 /* ViewController.swift */,
 				55FD7EE81E9EE80200E80DD8 /* Assets.xcassets */,
 				55FD7F151E9EEC1400E80DD8 /* Controllers */,
 				55FD7F1A1E9F0DB500E80DD8 /* Cells */,
@@ -134,7 +135,6 @@
 		55FD7F151E9EEC1400E80DD8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				55FD7EE31E9EE80200E80DD8 /* ViewController.swift */,
 				55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */,
 				55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */,
 			);
@@ -527,7 +527,6 @@
 				55FD7F081E9EE80200E80DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		55FD7F091E9EE80200E80DD8 /* Build configuration list for PBXNativeTarget "mental-health-appTests" */ = {
 			isa = XCConfigurationList;
@@ -536,7 +535,6 @@
 				55FD7F0B1E9EE80200E80DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		55FD7F0C1E9EE80200E80DD8 /* Build configuration list for PBXNativeTarget "mental-health-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,7 +543,6 @@
 				55FD7F0E1E9EE80200E80DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

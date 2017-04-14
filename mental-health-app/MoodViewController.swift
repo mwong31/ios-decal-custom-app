@@ -8,16 +8,11 @@
 
 import UIKit
 
-class MoodViewController: UIViewController{
-
-//UICollectionViewDelegate, //UICollectionViewDataSource {
+class MoodViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     
     @IBOutlet weak var moodCollection: UICollectionView!
     
-<<<<<<< HEAD
-    var dumb: Bool?
-=======
     var selectedMood : String = ""
     
     var moodsArray : [Int: String] =
@@ -28,7 +23,6 @@ class MoodViewController: UIViewController{
             3 : "I'm hungry",
             4 : "I want to relax"
     ]
->>>>>>> d2cb74d90dd9861d506318a17558f69b3dc243f4
     
     
     var moodsDict: [String : UIImage] = [
@@ -51,8 +45,8 @@ class MoodViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       // moodCollection.delegate = self
-        //moodCollection.dataSource = self
+        moodCollection.delegate = self
+        moodCollection.dataSource = self
 
         // Do any additional setup after loading the view.
     }
@@ -62,11 +56,6 @@ class MoodViewController: UIViewController{
         // Dispose of any resources that can be recreated.
     }
     
-<<<<<<< HEAD
-    
-   
-    
-=======
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return moodsDict.count
     }
@@ -95,7 +84,6 @@ class MoodViewController: UIViewController{
             }
         }
     }
->>>>>>> d2cb74d90dd9861d506318a17558f69b3dc243f4
 
     /*
     // MARK: - Navigation

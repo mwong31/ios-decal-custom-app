@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Opening Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mental_health_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,19 +43,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Opening Screen" id="x86-5R-Xte"/>
                     <connections>
                         <outlet property="OpeningLabel" destination="4KX-iJ-5kU" id="hMk-Jm-0Gq"/>
                         <outlet property="flowerPower" destination="CF2-cr-LZf" id="utA-70-e4B"/>
-<<<<<<< HEAD
-                        <segue destination="cBv-24-saI" kind="show" identifier="segue_yay" id="nsr-mr-0mc"/>
-=======
-                        <segue destination="cBv-24-saI" kind="show" identifier="toMoods" id="nsr-mr-0mc"/>
->>>>>>> d2cb74d90dd9861d506318a17558f69b3dc243f4
+                        <segue destination="8tZ-SW-XHr" kind="show" identifier="toMoods" id="nsr-mr-0mc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+            <point key="canvasLocation" x="1076" y="137.18140929535232"/>
         </scene>
         <!--Mood View Controller-->
         <scene sceneID="hrz-wo-gib">
@@ -107,7 +104,7 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How are you feeling today? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3b0-x2-2Iz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moods " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3b0-x2-2Iz">
                                 <rect key="frame" x="33" y="28" width="308" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -117,6 +114,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="aPn-oT-OLG"/>
                     <connections>
                         <outlet property="moodCollection" destination="4C4-Mf-JQ0" id="Uyt-6i-eTU"/>
                         <segue destination="Qz1-XU-FmL" kind="show" identifier="activitiesForMood" id="Oo2-o2-sAY"/>
@@ -124,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SJ1-H7-nqx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949.60000000000002" y="136.28185907046478"/>
+            <point key="canvasLocation" x="3767.1999999999998" y="136.28185907046478"/>
         </scene>
         <!--Activity For Mood View Controller-->
         <scene sceneID="6EF-ai-jWl">
@@ -170,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vkN-Ye-WPW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2024.8" y="136.28185907046478"/>
+            <point key="canvasLocation" x="4842.3999999999996" y="136.28185907046478"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="kSC-io-sP9">
@@ -217,5 +215,44 @@
             </objects>
             <point key="canvasLocation" x="138" y="928"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2la-HO-2sP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OVp-O9-qjw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" image="snowflake" id="lcn-ee-6xr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uET-s6-Bey">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cBv-24-saI" kind="relationship" relationship="rootViewController" id="z0W-RQ-XJT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K9j-Gq-esb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2828" y="136.28185907046478"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Zbd-3W-i31">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="8tZ-SW-XHr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="7HR-sQ-EkW">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OVp-O9-qjw" kind="relationship" relationship="viewControllers" id="Y1j-Yq-lK6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RiK-mf-CVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888.8" y="136.28185907046478"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="snowflake" width="600" height="508"/>
+    </resources>
 </document>
