@@ -8,12 +8,14 @@
 
 import UIKit
 
-class MoodViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class MoodViewController: UIViewController{
+
+//UICollectionViewDelegate, //UICollectionViewDataSource {
 
     
     @IBOutlet weak var moodCollection: UICollectionView!
     
-    
+    var dumb: Bool?
     
     
     
@@ -21,8 +23,8 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        moodCollection.delegate = self
-        moodCollection.dataSource = self
+       // moodCollection.delegate = self
+        //moodCollection.dataSource = self
 
         // Do any additional setup after loading the view.
     }
@@ -33,26 +35,7 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     
-    
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
-    }
-    
-    
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        <#code#>
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
-    }
-    
+   
     
 
     /*
