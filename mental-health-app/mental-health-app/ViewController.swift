@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     var trueture: Bool?
     
     @IBAction func continueButton(_ sender: Any) {
+        performSegue(withIdentifier: "toMoods", sender: self)
+        
     }
     
     @IBOutlet weak var OpeningLabel: UILabel!
