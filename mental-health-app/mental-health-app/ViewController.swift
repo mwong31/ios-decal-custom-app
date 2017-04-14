@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBAction func continueButton(_ sender: Any) {
+        performSegue(withIdentifier: "toMoods", sender: self)
+        
     }
     
     @IBOutlet weak var OpeningLabel: UILabel!
