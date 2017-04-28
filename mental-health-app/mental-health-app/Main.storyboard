@@ -198,7 +198,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label_bad" destination="ZtM-te-UCZ" id="OKS-0r-aPi"/>
+                        <outlet property="label_bad" destination="ZtM-te-UCZ" id="X6H-aV-ZeO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q5a-Bg-BWO" userLabel="First Responder" sceneMemberID="firstResponder"/>

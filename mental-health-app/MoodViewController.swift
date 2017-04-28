@@ -86,9 +86,10 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
                     dest.selectedMood = moodsResult[selectedMood]
                 }
             } else if identifier == "segue_badGrade" {
-              //  if let dest = segue.destination as? BadGradeViewController{
+                if let dest = segue.destination as?BadGradeViewController{
                 print (moodsResult[selectedMood])
                 }
+            }
             }
             }
     }
