@@ -20,6 +20,34 @@
                ReferencedContainer = "container:mental-health-app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "55FD7EF11E9EE80200E80DD8"
+               BuildableName = "mental-health-appTests.xctest"
+               BlueprintName = "mental-health-appTests"
+               ReferencedContainer = "container:mental-health-app.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "55FD7EFC1E9EE80200E80DD8"
+               BuildableName = "mental-health-appUITests.xctest"
+               BlueprintName = "mental-health-appUITests"
+               ReferencedContainer = "container:mental-health-app.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

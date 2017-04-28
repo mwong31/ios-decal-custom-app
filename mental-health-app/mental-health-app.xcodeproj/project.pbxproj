@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5583A7101EA052A9003F7C9E /* PlacesActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */; };
+		55E71F181EB3EA250073E127 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA29081EB2A98500FFF61B /* CoreLocation.framework */; };
+		55E71F191EB3EA5C0073E127 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A0A51B1EB3434E00D7333E /* AVFoundation.framework */; };
+		55E71F1A1EB3EA640073E127 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A0A51C1EB3434E00D7333E /* AVKit.framework */; };
+		55E71F1C1EB3F23F0073E127 /* BadGradeViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 55E71F1B1EB3F23F0073E127 /* BadGradeViewController.swift */; };
 		55FD7EE21E9EE80200E80DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7EE11E9EE80200E80DD8 /* AppDelegate.swift */; };
 		55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7EE31E9EE80200E80DD8 /* ViewController.swift */; };
 		55FD7EE91E9EE80200E80DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FD7EE81E9EE80200E80DD8 /* Assets.xcassets */; };
@@ -18,6 +22,7 @@
 		55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */; };
 		55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */; };
 		55FD7F191E9F057E00E80DD8 /* ActivityForMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */; };
+		866E996A1EAEE09700E17885 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E99691EAEE09700E17885 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesActivityViewController.swift; sourceTree = "<group>"; };
+		55A0A51B1EB3434E00D7333E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		55A0A51C1EB3434E00D7333E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		55CA29081EB2A98500FFF61B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		55E71F1B1EB3F23F0073E127 /* BadGradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadGradeViewController.swift; sourceTree = "<group>"; };
 		55FD7EDE1E9EE80200E80DD8 /* mental-health-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mental-health-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FD7EE11E9EE80200E80DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FD7EE31E9EE80200E80DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +64,9 @@
 		55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoodViewController.swift; path = ../MoodViewController.swift; sourceTree = "<group>"; };
 		55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityForMoodViewController.swift; sourceTree = "<group>"; };
+		6AC9E27E6915265633FDBA24 /* Pods-mental-health-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mental-health-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-mental-health-app/Pods-mental-health-app.release.xcconfig"; sourceTree = "<group>"; };
+		866E99691EAEE09700E17885 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BBB3C43858A8DEBAA2F39A09 /* Pods-mental-health-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mental-health-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mental-health-app/Pods-mental-health-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E71F1A1EB3EA640073E127 /* AVKit.framework in Frameworks */,
+				55E71F191EB3EA5C0073E127 /* AVFoundation.framework in Frameworks */,
+				55E71F181EB3EA250073E127 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B4AE35D414965F063C44BA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3C43858A8DEBAA2F39A09 /* Pods-mental-health-app.debug.xcconfig */,
+				6AC9E27E6915265633FDBA24 /* Pods-mental-health-app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		55FD7ED51E9EE80200E80DD8 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +113,8 @@
 				55FD7EF51E9EE80200E80DD8 /* mental-health-appTests */,
 				55FD7F001E9EE80200E80DD8 /* mental-health-appUITests */,
 				55FD7EDF1E9EE80200E80DD8 /* Products */,
+				4B4AE35D414965F063C44BA0 /* Pods */,
+				80501EFF43D909881DAB988D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,7 +133,6 @@
 			children = (
 				55FD7EE11E9EE80200E80DD8 /* AppDelegate.swift */,
 				55FD7F0F1E9EE87600E80DD8 /* Main.storyboard */,
-				55FD7EE31E9EE80200E80DD8 /* ViewController.swift */,
 				55FD7EE81E9EE80200E80DD8 /* Assets.xcassets */,
 				55FD7F151E9EEC1400E80DD8 /* Controllers */,
 				55FD7F1A1E9F0DB500E80DD8 /* Cells */,
@@ -137,9 +162,11 @@
 		55FD7F151E9EEC1400E80DD8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				55FD7EE31E9EE80200E80DD8 /* ViewController.swift */,
 				55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */,
 				55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */,
 				5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */,
+				55E71F1B1EB3F23F0073E127 /* BadGradeViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -148,9 +175,20 @@
 			isa = PBXGroup;
 			children = (
 				55FD7EEA1E9EE80200E80DD8 /* LaunchScreen.storyboard */,
+				866E99691EAEE09700E17885 /* TableViewCell.swift */,
 				55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		80501EFF43D909881DAB988D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A0A51B1EB3434E00D7333E /* AVFoundation.framework */,
+				55A0A51C1EB3434E00D7333E /* AVKit.framework */,
+				55CA29081EB2A98500FFF61B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FD7F061E9EE80200E80DD8 /* Build configuration list for PBXNativeTarget "mental-health-app" */;
 			buildPhases = (
+				8B6F4DA221F0BA3140036899 /* [CP] Check Pods Manifest.lock */,
 				55FD7EDA1E9EE80200E80DD8 /* Sources */,
 				55FD7EDB1E9EE80200E80DD8 /* Frameworks */,
 				55FD7EDC1E9EE80200E80DD8 /* Resources */,
+				DFA69A2A7F26976C9FEB5BC0 /* [CP] Embed Pods Frameworks */,
+				4AC1A6B7EDCDAE9C1811BD5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,7 +262,13 @@
 				TargetAttributes = {
 					55FD7EDD1E9EE80200E80DD8 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = XP3259R9JU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					55FD7EF11E9EE80200E80DD8 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -260,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E71F1C1EB3F23F0073E127 /* BadGradeViewController.swift in Resources */,
 				55FD7F101E9EE87600E80DD8 /* Main.storyboard in Resources */,
 				55FD7EEC1E9EE80200E80DD8 /* LaunchScreen.storyboard in Resources */,
 				55FD7EE91E9EE80200E80DD8 /* Assets.xcassets in Resources */,
@@ -282,12 +330,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AC1A6B7EDCDAE9C1811BD5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mental-health-app/Pods-mental-health-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6F4DA221F0BA3140036899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA69A2A7F26976C9FEB5BC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mental-health-app/Pods-mental-health-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55FD7EDA1E9EE80200E80DD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55FD7F191E9F057E00E80DD8 /* ActivityForMoodViewController.swift in Sources */,
+				866E996A1EAEE09700E17885 /* TableViewCell.swift in Sources */,
 				5583A7101EA052A9003F7C9E /* PlacesActivityViewController.swift in Sources */,
 				55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */,
 				55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */,
@@ -380,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -425,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -436,11 +533,14 @@
 		};
 		55FD7F071E9EE80200E80DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB3C43858A8DEBAA2F39A09 /* Pods-mental-health-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XP3259R9JU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "mental-health-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -448,11 +548,14 @@
 		};
 		55FD7F081E9EE80200E80DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC9E27E6915265633FDBA24 /* Pods-mental-health-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XP3259R9JU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "mental-health-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

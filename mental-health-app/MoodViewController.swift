@@ -66,25 +66,35 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let currCell = moodCollection.dequeueReusableCell(withReuseIdentifier: "mood", for: indexPath) as! MoodCollectionViewCell
         currCell.moodImage.image = currImage
         currCell.moodLabel.text = currMood
+        currCell.moodLabel.textColor = .white
         return currCell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
         selectedMood = moodsArray[indexPath.row]!
-        performSegue(withIdentifier: "activitiesForMood", sender: self)
+        if (indexPath.row != 2){
+            performSegue(withIdentifier: "activitiesForMood", sender: self)
+        }else { performSegue(withIdentifier: "segue_badGrade", sender: self)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             if identifier == "activitiesForMood" {
                 if let dest = segue.destination as? ActivityForMoodViewController {
-                    print (moodsResult[selectedMood])
                     dest.selectedMood = moodsResult[selectedMood]
                 }
+            } else if identifier == "segue_badGrade" {
+              //  if let dest = segue.destination as? BadGradeViewController{
+                print (moodsResult[selectedMood])
+                }
             }
-        }
+            }
     }
 
+
+    
     /*
     // MARK: - Navigation
 
@@ -95,4 +105,4 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     */
 
-}
+
