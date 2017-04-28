@@ -72,16 +72,12 @@ class PlacesActivityViewController: UIViewController, MKMapViewDelegate, CLLocat
             if error != nil {
                 print("Error occured in search: \(error!.localizedDescription)")
             } else if response!.mapItems.count == 0 {
-              //  print("No matches found")
+                print("No matches found")
             } else {
-             //   print("Matches found")
+                print("Matches found")
                 
                 for item in response!.mapItems {
-            //        print("Name" + item.name!)
-              //      print("Phone" + item.phoneNumber!)
-                    
                     self.matchingItems.append(item as MKMapItem)
-                //    print("Matching items = \(self.matchingItems.count)")
                     
                     let annotation = MKPointAnnotation()
                     annotation.coordinate = item.placemark.coordinate

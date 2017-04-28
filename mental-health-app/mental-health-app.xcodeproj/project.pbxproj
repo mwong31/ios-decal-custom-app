@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5583A7101EA052A9003F7C9E /* PlacesActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */; };
+		55AA97271EB3F4E7000D7EBF /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA97261EB3F4E7000D7EBF /* MusicViewController.swift */; };
 		55E71F181EB3EA250073E127 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA29081EB2A98500FFF61B /* CoreLocation.framework */; };
 		55E71F191EB3EA5C0073E127 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A0A51B1EB3434E00D7333E /* AVFoundation.framework */; };
 		55E71F1A1EB3EA640073E127 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A0A51C1EB3434E00D7333E /* AVKit.framework */; };
@@ -46,6 +47,7 @@
 		5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesActivityViewController.swift; sourceTree = "<group>"; };
 		55A0A51B1EB3434E00D7333E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		55A0A51C1EB3434E00D7333E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		55AA97261EB3F4E7000D7EBF /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		55CA29081EB2A98500FFF61B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		55E71F1B1EB3F23F0073E127 /* BadGradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadGradeViewController.swift; sourceTree = "<group>"; };
 		55FD7EDE1E9EE80200E80DD8 /* mental-health-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mental-health-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +169,7 @@
 				55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */,
 				5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */,
 				55E71F1B1EB3F23F0073E127 /* BadGradeViewController.swift */,
+				55AA97261EB3F4E7000D7EBF /* MusicViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				866E996A1EAEE09700E17885 /* TableViewCell.swift in Sources */,
 				5583A7101EA052A9003F7C9E /* PlacesActivityViewController.swift in Sources */,
 				55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */,
+				55AA97271EB3F4E7000D7EBF /* MusicViewController.swift in Sources */,
 				55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */,
 				55FD7EE21E9EE80200E80DD8 /* AppDelegate.swift in Sources */,
 				55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */,

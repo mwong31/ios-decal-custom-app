@@ -19,14 +19,14 @@ class ActivityForMoodViewController: UIViewController, UITableViewDelegate, UITa
     var selectedActivity : String?
     
     var activitiy : [String : UIImage] = [
-        "music" : #imageLiteral(resourceName: "music"),
-        "eat" : #imageLiteral(resourceName: "foodFood"),
-        "diy" : #imageLiteral(resourceName: "artHands")]
+        "listen" : #imageLiteral(resourceName: "music"),
+        "explore" : #imageLiteral(resourceName: "foodFood"),
+        "read" : #imageLiteral(resourceName: "artHands")]
     
     var activityOptions : [Int: String] = [
-        0 : "music",
-        1 : "eat",
-        2 : "diy"
+        0 : "listen",
+        1 : "explore",
+        2 : "read"
     ]
     
     override func viewDidLoad() {
@@ -80,7 +80,7 @@ class ActivityForMoodViewController: UIViewController, UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         //selectedActivity = activityOptions[indexPath.row]!
         if (indexPath.row == 1) {
-          //  performSegue(withIdentifier: "toMusic", sender: self)
+            performSegue(withIdentifier: "toMusic", sender: self)
         } else if (indexPath.row == 0) {
             performSegue(withIdentifier: "toMap", sender: self)
         } else {
@@ -94,7 +94,11 @@ class ActivityForMoodViewController: UIViewController, UITableViewDelegate, UITa
         
             if let dest = segue.destination as? PlacesActivityViewController {
                 dest.currMood = selectedMood
-            } 
+            }
+            
+            if let dest = segue.destination as? MusicViewController {
+                print("i am going to music!")
+            }
             
         }
     }
