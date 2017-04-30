@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		557D9B941EB5B11B007DAB71 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D9B931EB5B11B007DAB71 /* StoreKit.framework */; };
+		557D9B961EB5B121007DAB71 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D9B951EB5B121007DAB71 /* MediaPlayer.framework */; };
+		557D9BAD1EB5C0A2007DAB71 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D9BAC1EB5C0A2007DAB71 /* MusicTableViewController.swift */; };
+		557D9BAF1EB5C15D007DAB71 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D9BAE1EB5C15D007DAB71 /* MusicTableViewCell.swift */; };
 		5583A7101EA052A9003F7C9E /* PlacesActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */; };
-		55AA97271EB3F4E7000D7EBF /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA97261EB3F4E7000D7EBF /* MusicViewController.swift */; };
 		55AA97291EB4095F000D7EBF /* BadGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA97281EB4095F000D7EBF /* BadGradeViewController.swift */; };
 		55E71F181EB3EA250073E127 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA29081EB2A98500FFF61B /* CoreLocation.framework */; };
 		55E71F191EB3EA5C0073E127 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A0A51B1EB3434E00D7333E /* AVFoundation.framework */; };
 		55E71F1A1EB3EA640073E127 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A0A51C1EB3434E00D7333E /* AVKit.framework */; };
+		55F81D6B1EB5D4E8007738C2 /* Beach Sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D681EB5D4E8007738C2 /* Beach Sounds.mp3 */; };
+		55F81D6C1EB5D4E8007738C2 /* Ella's Lullaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D691EB5D4E8007738C2 /* Ella's Lullaby.mp3 */; };
+		55F81D6D1EB5D4E8007738C2 /* Rain Sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D6A1EB5D4E8007738C2 /* Rain Sounds.mp3 */; };
+		55F81D731EB5D598007738C2 /* banana pancakes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D6F1EB5D598007738C2 /* banana pancakes.mp3 */; };
+		55F81D741EB5D598007738C2 /* Eat It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D701EB5D598007738C2 /* Eat It.mp3 */; };
+		55F81D751EB5D598007738C2 /* Pork and Beans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D711EB5D598007738C2 /* Pork and Beans.mp3 */; };
+		55F81D761EB5D598007738C2 /* Strawberry Fields Forever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D721EB5D598007738C2 /* Strawberry Fields Forever.mp3 */; };
+		55F81D781EB5D59E007738C2 /* Distant Fortune - Daniel Kadawatha [Acoustic Group Music].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D771EB5D59E007738C2 /* Distant Fortune - Daniel Kadawatha [Acoustic Group Music].mp3 */; };
+		55F81D7A1EB5D78D007738C2 /* 5 Minute Meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D791EB5D78D007738C2 /* 5 Minute Meditation.mp3 */; };
+		55F81D7F1EB5D7C8007738C2 /* Hey Soul Sister.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D7C1EB5D7C8007738C2 /* Hey Soul Sister.mp3 */; };
+		55F81D801EB5D7C8007738C2 /* I'm Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D7D1EB5D7C8007738C2 /* I'm Yours.mp3 */; };
+		55F81D811EB5D7C8007738C2 /* Sunday Candy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D7E1EB5D7C8007738C2 /* Sunday Candy.mp3 */; };
+		55F81D871EB5D803007738C2 /* Harry Potter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D831EB5D803007738C2 /* Harry Potter.mp3 */; };
+		55F81D881EB5D803007738C2 /* Indiana Jones Theme Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D841EB5D803007738C2 /* Indiana Jones Theme Song.mp3 */; };
+		55F81D891EB5D803007738C2 /* Pirates Of The Caribbean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D851EB5D803007738C2 /* Pirates Of The Caribbean.mp3 */; };
+		55F81D8A1EB5D803007738C2 /* Star Wars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F81D861EB5D803007738C2 /* Star Wars.mp3 */; };
 		55FD7EE21E9EE80200E80DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7EE11E9EE80200E80DD8 /* AppDelegate.swift */; };
 		55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7EE31E9EE80200E80DD8 /* ViewController.swift */; };
 		55FD7EE91E9EE80200E80DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FD7EE81E9EE80200E80DD8 /* Assets.xcassets */; };
@@ -44,12 +63,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		557D9B931EB5B11B007DAB71 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		557D9B951EB5B121007DAB71 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		557D9BA61EB5BDBF007DAB71 /* mental-health-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mental-health-app-Bridging-Header.h"; sourceTree = "<group>"; };
+		557D9BAC1EB5C0A2007DAB71 /* MusicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
+		557D9BAE1EB5C15D007DAB71 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
 		5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesActivityViewController.swift; sourceTree = "<group>"; };
 		55A0A51B1EB3434E00D7333E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		55A0A51C1EB3434E00D7333E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		55AA97261EB3F4E7000D7EBF /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		55AA97281EB4095F000D7EBF /* BadGradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadGradeViewController.swift; sourceTree = "<group>"; };
 		55CA29081EB2A98500FFF61B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		55F81D681EB5D4E8007738C2 /* Beach Sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beach Sounds.mp3"; sourceTree = "<group>"; };
+		55F81D691EB5D4E8007738C2 /* Ella's Lullaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ella's Lullaby.mp3"; sourceTree = "<group>"; };
+		55F81D6A1EB5D4E8007738C2 /* Rain Sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rain Sounds.mp3"; sourceTree = "<group>"; };
+		55F81D6F1EB5D598007738C2 /* banana pancakes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "banana pancakes.mp3"; sourceTree = "<group>"; };
+		55F81D701EB5D598007738C2 /* Eat It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Eat It.mp3"; sourceTree = "<group>"; };
+		55F81D711EB5D598007738C2 /* Pork and Beans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pork and Beans.mp3"; sourceTree = "<group>"; };
+		55F81D721EB5D598007738C2 /* Strawberry Fields Forever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Strawberry Fields Forever.mp3"; sourceTree = "<group>"; };
+		55F81D771EB5D59E007738C2 /* Distant Fortune - Daniel Kadawatha [Acoustic Group Music].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Distant Fortune - Daniel Kadawatha [Acoustic Group Music].mp3"; sourceTree = "<group>"; };
+		55F81D791EB5D78D007738C2 /* 5 Minute Meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "5 Minute Meditation.mp3"; sourceTree = "<group>"; };
+		55F81D7C1EB5D7C8007738C2 /* Hey Soul Sister.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hey Soul Sister.mp3"; sourceTree = "<group>"; };
+		55F81D7D1EB5D7C8007738C2 /* I'm Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I'm Yours.mp3"; sourceTree = "<group>"; };
+		55F81D7E1EB5D7C8007738C2 /* Sunday Candy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sunday Candy.mp3"; sourceTree = "<group>"; };
+		55F81D831EB5D803007738C2 /* Harry Potter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Harry Potter.mp3"; sourceTree = "<group>"; };
+		55F81D841EB5D803007738C2 /* Indiana Jones Theme Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Indiana Jones Theme Song.mp3"; sourceTree = "<group>"; };
+		55F81D851EB5D803007738C2 /* Pirates Of The Caribbean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pirates Of The Caribbean.mp3"; sourceTree = "<group>"; };
+		55F81D861EB5D803007738C2 /* Star Wars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Star Wars.mp3"; sourceTree = "<group>"; };
 		55FD7EDE1E9EE80200E80DD8 /* mental-health-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mental-health-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FD7EE11E9EE80200E80DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FD7EE31E9EE80200E80DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557D9B961EB5B121007DAB71 /* MediaPlayer.framework in Frameworks */,
+				557D9B941EB5B11B007DAB71 /* StoreKit.framework in Frameworks */,
 				55E71F1A1EB3EA640073E127 /* AVKit.framework in Frameworks */,
 				55E71F191EB3EA5C0073E127 /* AVFoundation.framework in Frameworks */,
 				55E71F181EB3EA250073E127 /* CoreLocation.framework in Frameworks */,
@@ -108,6 +149,50 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		557D9BA31EB5B880007DAB71 /* SleepSongs */ = {
+			isa = PBXGroup;
+			children = (
+				55F81D791EB5D78D007738C2 /* 5 Minute Meditation.mp3 */,
+				55F81D681EB5D4E8007738C2 /* Beach Sounds.mp3 */,
+				55F81D771EB5D59E007738C2 /* Distant Fortune - Daniel Kadawatha [Acoustic Group Music].mp3 */,
+				55F81D691EB5D4E8007738C2 /* Ella's Lullaby.mp3 */,
+				55F81D6A1EB5D4E8007738C2 /* Rain Sounds.mp3 */,
+			);
+			name = SleepSongs;
+			sourceTree = "<group>";
+		};
+		55F81D6E1EB5D584007738C2 /* FoodSongs */ = {
+			isa = PBXGroup;
+			children = (
+				55F81D6F1EB5D598007738C2 /* banana pancakes.mp3 */,
+				55F81D701EB5D598007738C2 /* Eat It.mp3 */,
+				55F81D711EB5D598007738C2 /* Pork and Beans.mp3 */,
+				55F81D721EB5D598007738C2 /* Strawberry Fields Forever.mp3 */,
+			);
+			name = FoodSongs;
+			sourceTree = "<group>";
+		};
+		55F81D7B1EB5D795007738C2 /* RelaxingSongs */ = {
+			isa = PBXGroup;
+			children = (
+				55F81D7C1EB5D7C8007738C2 /* Hey Soul Sister.mp3 */,
+				55F81D7D1EB5D7C8007738C2 /* I'm Yours.mp3 */,
+				55F81D7E1EB5D7C8007738C2 /* Sunday Candy.mp3 */,
+			);
+			name = RelaxingSongs;
+			sourceTree = "<group>";
+		};
+		55F81D821EB5D7F5007738C2 /* AdventureSongs */ = {
+			isa = PBXGroup;
+			children = (
+				55F81D831EB5D803007738C2 /* Harry Potter.mp3 */,
+				55F81D841EB5D803007738C2 /* Indiana Jones Theme Song.mp3 */,
+				55F81D851EB5D803007738C2 /* Pirates Of The Caribbean.mp3 */,
+				55F81D861EB5D803007738C2 /* Star Wars.mp3 */,
+			);
+			name = AdventureSongs;
+			sourceTree = "<group>";
+		};
 		55FD7ED51E9EE80200E80DD8 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +218,10 @@
 		55FD7EE01E9EE80200E80DD8 /* mental-health-app */ = {
 			isa = PBXGroup;
 			children = (
+				55F81D821EB5D7F5007738C2 /* AdventureSongs */,
+				55F81D7B1EB5D795007738C2 /* RelaxingSongs */,
+				55F81D6E1EB5D584007738C2 /* FoodSongs */,
+				557D9BA31EB5B880007DAB71 /* SleepSongs */,
 				55FD7EE11E9EE80200E80DD8 /* AppDelegate.swift */,
 				55FD7F0F1E9EE87600E80DD8 /* Main.storyboard */,
 				55FD7EE81E9EE80200E80DD8 /* Assets.xcassets */,
@@ -167,9 +256,10 @@
 				55FD7EE31E9EE80200E80DD8 /* ViewController.swift */,
 				55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */,
 				55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */,
+				557D9BA61EB5BDBF007DAB71 /* mental-health-app-Bridging-Header.h */,
 				5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */,
-				55AA97261EB3F4E7000D7EBF /* MusicViewController.swift */,
 				55AA97281EB4095F000D7EBF /* BadGradeViewController.swift */,
+				557D9BAC1EB5C0A2007DAB71 /* MusicTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -180,6 +270,7 @@
 				55FD7EEA1E9EE80200E80DD8 /* LaunchScreen.storyboard */,
 				866E99691EAEE09700E17885 /* TableViewCell.swift */,
 				55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */,
+				557D9BAE1EB5C15D007DAB71 /* MusicTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -187,6 +278,8 @@
 		80501EFF43D909881DAB988D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				557D9B951EB5B121007DAB71 /* MediaPlayer.framework */,
+				557D9B931EB5B11B007DAB71 /* StoreKit.framework */,
 				55A0A51B1EB3434E00D7333E /* AVFoundation.framework */,
 				55A0A51C1EB3434E00D7333E /* AVKit.framework */,
 				55CA29081EB2A98500FFF61B /* CoreLocation.framework */,
@@ -266,6 +359,7 @@
 					55FD7EDD1E9EE80200E80DD8 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = XP3259R9JU;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -310,9 +404,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F81D761EB5D598007738C2 /* Strawberry Fields Forever.mp3 in Resources */,
+				55F81D811EB5D7C8007738C2 /* Sunday Candy.mp3 in Resources */,
+				55F81D871EB5D803007738C2 /* Harry Potter.mp3 in Resources */,
+				55F81D881EB5D803007738C2 /* Indiana Jones Theme Song.mp3 in Resources */,
+				55F81D781EB5D59E007738C2 /* Distant Fortune - Daniel Kadawatha [Acoustic Group Music].mp3 in Resources */,
 				55FD7F101E9EE87600E80DD8 /* Main.storyboard in Resources */,
+				55F81D6B1EB5D4E8007738C2 /* Beach Sounds.mp3 in Resources */,
 				55FD7EEC1E9EE80200E80DD8 /* LaunchScreen.storyboard in Resources */,
+				55F81D6D1EB5D4E8007738C2 /* Rain Sounds.mp3 in Resources */,
+				55F81D7A1EB5D78D007738C2 /* 5 Minute Meditation.mp3 in Resources */,
+				55F81D731EB5D598007738C2 /* banana pancakes.mp3 in Resources */,
+				55F81D801EB5D7C8007738C2 /* I'm Yours.mp3 in Resources */,
+				55F81D6C1EB5D4E8007738C2 /* Ella's Lullaby.mp3 in Resources */,
+				55F81D7F1EB5D7C8007738C2 /* Hey Soul Sister.mp3 in Resources */,
 				55FD7EE91E9EE80200E80DD8 /* Assets.xcassets in Resources */,
+				55F81D751EB5D598007738C2 /* Pork and Beans.mp3 in Resources */,
+				55F81D741EB5D598007738C2 /* Eat It.mp3 in Resources */,
+				55F81D8A1EB5D803007738C2 /* Star Wars.mp3 in Resources */,
+				55F81D891EB5D803007738C2 /* Pirates Of The Caribbean.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,10 +497,11 @@
 			files = (
 				55FD7F191E9F057E00E80DD8 /* ActivityForMoodViewController.swift in Sources */,
 				55AA97291EB4095F000D7EBF /* BadGradeViewController.swift in Sources */,
+				557D9BAD1EB5C0A2007DAB71 /* MusicTableViewController.swift in Sources */,
 				866E996A1EAEE09700E17885 /* TableViewCell.swift in Sources */,
 				5583A7101EA052A9003F7C9E /* PlacesActivityViewController.swift in Sources */,
+				557D9BAF1EB5C15D007DAB71 /* MusicTableViewCell.swift in Sources */,
 				55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */,
-				55AA97271EB3F4E7000D7EBF /* MusicViewController.swift in Sources */,
 				55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */,
 				55FD7EE21E9EE80200E80DD8 /* AppDelegate.swift in Sources */,
 				55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */,
@@ -540,12 +651,19 @@
 			baseConfigurationReference = BBB3C43858A8DEBAA2F39A09 /* Pods-mental-health-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XP3259R9JU;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "mental-health-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mental-health-app/mental-health-app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -555,12 +673,18 @@
 			baseConfigurationReference = 6AC9E27E6915265633FDBA24 /* Pods-mental-health-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XP3259R9JU;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "mental-health-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mental-health-app/mental-health-app-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

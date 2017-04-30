@@ -96,7 +96,7 @@ class ActivityForMoodViewController: UIViewController, UITableViewDelegate, UITa
                 dest.currMood = selectedMood
             }
             
-            if let dest = segue.destination as? MusicViewController {
+            if let dest = segue.destination as? MusicTableViewController {
                 print("i am going to music!")
             }
             
