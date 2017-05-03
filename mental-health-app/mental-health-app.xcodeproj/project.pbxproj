@@ -15,6 +15,7 @@
 		550F28F21EB9512700AD2F73 /* Crush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28F11EB9512700AD2F73 /* Crush.mp3 */; };
 		550F28F41EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28F31EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 */; };
 		550F28F61EB9513B00AD2F73 /* 01 See Her Out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28F51EB9513B00AD2F73 /* 01 See Her Out.mp3 */; };
+		550F28F81EB9756F00AD2F73 /* SongPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F28F71EB9756F00AD2F73 /* SongPlayerViewController.swift */; };
 		557D9B941EB5B11B007DAB71 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D9B931EB5B11B007DAB71 /* StoreKit.framework */; };
 		557D9B961EB5B121007DAB71 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D9B951EB5B121007DAB71 /* MediaPlayer.framework */; };
 		557D9BAD1EB5C0A2007DAB71 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D9BAC1EB5C0A2007DAB71 /* MusicTableViewController.swift */; };
@@ -84,6 +85,7 @@
 		550F28F11EB9512700AD2F73 /* Crush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crush.mp3; sourceTree = "<group>"; };
 		550F28F31EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Heartlines [Tak3da.com].mp3"; sourceTree = "<group>"; };
 		550F28F51EB9513B00AD2F73 /* 01 See Her Out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 See Her Out.mp3"; sourceTree = "<group>"; };
+		550F28F71EB9756F00AD2F73 /* SongPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongPlayerViewController.swift; sourceTree = "<group>"; };
 		557D9B931EB5B11B007DAB71 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		557D9B951EB5B121007DAB71 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		557D9BA61EB5BDBF007DAB71 /* mental-health-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mental-health-app-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -244,9 +246,10 @@
 		55FD7EE01E9EE80200E80DD8 /* mental-health-app */ = {
 			isa = PBXGroup;
 			children = (
+				861CCA2B1EB7F9E70072F6CF /* Constants.swift */,
+				861806521EB86D0600FF0D0A /* stressedSongs */,
 				861806651EB9243B00FF0D0A /* lackOfSelfEsteem */,
 				861806551EB86DEF00FF0D0A /* homesickSongs */,
-				861CCA2B1EB7F9E70072F6CF /* Constants.swift */,
 				55F81D821EB5D7F5007738C2 /* AdventureSongs */,
 				55F81D7B1EB5D795007738C2 /* RelaxingSongs */,
 				55F81D6E1EB5D584007738C2 /* FoodSongs */,
@@ -293,6 +296,7 @@
 				86419ED61EB867BD00F70799 /* happyView.swift */,
 				861806631EB8711800FF0D0A /* stressedView.swift */,
 				8618066B1EB93A5B00FF0D0A /* lateView.swift */,
+				550F28F71EB9756F00AD2F73 /* SongPlayerViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -345,7 +349,6 @@
 			children = (
 				550F28EB1EB9511000AD2F73 /* TEGOS.RU.mp3 */,
 				550F28E71EB9504700AD2F73 /* Galantis - Runaway (Gioni Remix).mp3 */,
-				861806521EB86D0600FF0D0A /* stressedSongs */,
 			);
 			name = lackOfSelfEsteem;
 			sourceTree = "<group>";
@@ -578,6 +581,7 @@
 				86419ED71EB867BD00F70799 /* happyView.swift in Sources */,
 				55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */,
 				55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */,
+				550F28F81EB9756F00AD2F73 /* SongPlayerViewController.swift in Sources */,
 				861806641EB8711800FF0D0A /* stressedView.swift in Sources */,
 				55FD7EE21E9EE80200E80DD8 /* AppDelegate.swift in Sources */,
 				55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */,

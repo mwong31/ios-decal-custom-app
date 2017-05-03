@@ -9,14 +9,13 @@
 import UIKit
 import AVFoundation
 
-
-
+var audioPlayer = AVAudioPlayer()
 
 class MusicTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
-    var audioPlayer = AVAudioPlayer()
     var songs : [String] = []
     var selectedSong : String = ""
-    
+    var selectedRow : Int = -1
+    var playingMusic : Bool = false
     
     @IBOutlet weak var songsTable: UITableView!
     
@@ -47,41 +46,21 @@ class MusicTableViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("yay clicked on meeeee")
         selectedSong = songs[indexPath.row]
+        print (indexPath.row)
+        print (selectedRow)
+        if (selectedRow == indexPath.row && playingMusic == true) {
+            audioPlayer.pause()
+            playingMusic = false
+        }
         do {
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+            selectedRow = indexPath.row
             audioPlayer.play()
-            
+            playingMusic = true
         } catch {
             print("couldn't play song")
         }
 
     }
-
- 
-    
-//    func gettingSongName() {
-//        let folderURL = URL(fileURLWithPath: Bundle.main.resourcePath!)
-//        
-//        do {
-//            let songPath = try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
-//            
-//            for song in songPath {
-//                var mySong = song.absoluteString
-//                if mySong.contains(".mp3") {
-//                    let findString = mySong.components(separatedBy: "/")
-//                    mySong = findString[findString.count-1]
-//                    mySong = mySong.replacingOccurrences(of: "%20", with: " ")
-//                    mySong = mySong.replacingOccurrences(of: ".mp3", with: "")
-//                    print(mySong)
-//                    songs.append(mySong)
-//                    
-//                }
-//            }
-//            songsTable.reloadData()
-//        }
-//        catch {
-//            
-//        }
-//    }
 }
