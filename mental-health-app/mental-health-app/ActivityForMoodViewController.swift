@@ -15,18 +15,19 @@ class ActivityForMoodViewController: UIViewController, UITableViewDelegate, UITa
     @IBOutlet weak var activitiesTable: UITableView!
     
     var selectedMood : String?
+    var thisMood: String?
     
     var selectedActivity : String?
     
     var activitiy : [String : UIImage] = [
-        "listen" : #imageLiteral(resourceName: "music"),
-        "explore" : #imageLiteral(resourceName: "foodFood"),
-        "read" : #imageLiteral(resourceName: "artHands")]
+        "listen" : #imageLiteral(resourceName: "blackFlower"),
+        "explore" : #imageLiteral(resourceName: "blackFlower2"),
+        "more" : #imageLiteral(resourceName: "blackFlower3")]
     
     var activityOptions : [Int: String] = [
         0 : "listen",
         1 : "explore",
-        2 : "read"
+        2 : "more"
     ]
     
     override func viewDidLoad() {
@@ -37,12 +38,10 @@ class ActivityForMoodViewController: UIViewController, UITableViewDelegate, UITa
         
         currentMood.text = selectedMood
         currentMood.textAlignment = .center
-        currentMood.font = UIFont(name: "Noteworthy-Bold", size:20)
-        // Do any additional setup after loading the view.
     }
 
     
-    let MinHeight: CGFloat = 100.0
+    let MinHeight: CGFloat = 45.0
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let tHeight = tableView.bounds.height
         
@@ -77,27 +76,37 @@ class ActivityForMoodViewController: UIViewController, UITableViewDelegate, UITa
     
    //  send user to the activity optionthey selected
    //  or should we have button that users can explicitly click
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //selectedActivity = activityOptions[indexPath.row]!
-        if (indexPath.row == 1) {
+        print(indexPath.row)
+        if (indexPath.row == 0) {
             performSegue(withIdentifier: "toMusic", sender: self)
-        } else if (indexPath.row == 0) {
+        } else if (indexPath.row == 1) {
             performSegue(withIdentifier: "toMap", sender: self)
-        } else {
-            print ("hello")
+        } else if (indexPath.row == 2){
+            let url = URL(string: urlDictionary[thisMood!]!)!
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
 
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
-        
-            if let dest = segue.destination as? PlacesActivityViewController {
+            if (identifier == "toMap") {
+                print(identifier)
+                if let dest = segue.destination as? PlacesActivityViewController {
                 dest.currMood = selectedMood
             }
-            
+            }
+            else if (identifier == "toMusic"){
             if let dest = segue.destination as? MusicTableViewController {
+                print(identifier)
+                print(selectedMood)
+                dest.songs = songDictionary[thisMood!]!
                 print("i am going to music!")
+            }
+            } else {
+                print("going to anoterh view contoelr!")
             }
             
         }

@@ -21,16 +21,29 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
             1 : "I'm feeling adventurous",
             2 : "I just got a bad grade back",
             3 : "I'm hungry",
-            4 : "I want to relax"
+            4 : "I want to relax",
+            5 : "I'm really stressed out",
+            6 : "I'm homesick",
+            7 : "I'm so late all the time",
+            8 : "lack of self-esteem",
+            9: "I think I might be depressed",
+            10: "I need instant happiness"
     ]
     
     
     var moodsDict: [String : UIImage] = [
         "I'm feeling tired" : #imageLiteral(resourceName: "snowflake"),
-        "I'm feeling adventurous" : #imageLiteral(resourceName: "adventurous"),
-        "I just got a bad grade back" : #imageLiteral(resourceName: "flower bunch yellow"),
+        "I'm feeling adventurous" : #imageLiteral(resourceName: "snowflake") ,
+        "I just got a bad grade back" : #imageLiteral(resourceName: "snowflake"),
         "I'm hungry" : #imageLiteral(resourceName: "snowflake"),
-        "I want to relax" : #imageLiteral(resourceName: "snowflake")]
+        "I want to relax" : #imageLiteral(resourceName: "snowflake"),
+        "I'm really stressed out": #imageLiteral(resourceName: "snowflake"),
+        "I'm homesick" : #imageLiteral(resourceName: "snowflake"),
+        "I'm so late all the time" : #imageLiteral(resourceName: "snowflake"),
+        "lack of self-esteem" : #imageLiteral(resourceName: "snowflake"),
+        "I think I might be depressed": #imageLiteral(resourceName: "snowflake"),
+        "I need instant happiness": #imageLiteral(resourceName: "snowflake")
+        ]
     
     
     var moodsResult : [String : String] = [
@@ -38,7 +51,13 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         "I'm feeling adventurous" : "If you're feeling adventurous...",
         "I just got a bad grade back" : "If you're down about a bad grade...",
         "I'm hungry" : "If you're hungry",
-        "I want to relax" : "If you want to relax..."
+        "I want to relax" : "If you want to relax...",
+        "I'm really stressed out": "If you are stressed...",
+        "I'm homesick" : "If you are homesick",
+        "I'm so late all the time" : "LOL" ,
+        "lack of self-esteem" : "If you feel down about yourself...",
+        "I think I might be depressed": "I will help you as best I can",
+        "I need instant happiness": "This should make you happy"
     ]
     
     
@@ -73,26 +92,58 @@ class MoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 
         selectedMood = moodsArray[indexPath.row]!
-        if (indexPath.row != 2){
-            performSegue(withIdentifier: "activitiesForMood", sender: self)
-        }else { performSegue(withIdentifier: "segue_badGrade", sender: self)
+        if (indexPath.row == 2){
+            performSegue(withIdentifier: "segue_badGrade", sender: self)
+        } else if (indexPath.row == 0) { performSegue(withIdentifier: "tiredSegue", sender: self)
+        } else if (indexPath.row == 10){
+            performSegue(withIdentifier: "segueHappy", sender: self)
+        }else if (indexPath.row == 9){
+            let url1 = URL(string: "https://www.psycom.net/depression-test/")!
+            UIApplication.shared.open(url1, options: [:], completionHandler: nil)
+        }else if (indexPath.row == 5){
+            performSegue(withIdentifier: "stressedSegue", sender: self)
         }
+        else if (indexPath.row == 7){
+            performSegue(withIdentifier: "lateSegue", sender: self)
+        }
+        else {performSegue(withIdentifier: "activitiesForMood", sender: self)
     }
-    
+    }
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             if identifier == "activitiesForMood" {
                 if let dest = segue.destination as? ActivityForMoodViewController {
                     dest.selectedMood = moodsResult[selectedMood]
+                    dest.thisMood = selectedMood
                 }
             } else if identifier == "segue_badGrade" {
                 if let dest = segue.destination as?BadGradeViewController{
                 print (moodsResult[selectedMood])
                 }
+            } else if identifier == "tiredSegue" {
+                if let dest = segue.destination as? tiredView{
+                    dest.thisMood = selectedMood
+                    print ("tired")
             }
+            } else if identifier == "segueHappy" {
+                if let dest = segue.destination as? happyView{
+                    print("happy")
+                }
+                
+            }else if identifier == "stressedSegue" {
+                if let dest = segue.destination as? stressedView{
+                    dest.thisMood = selectedMood
+                    print("happy")
+                }
+            }else if identifier == "lateSegue" {
+                if let dest = segue.destination as? lateView{
+                    print("happy")
+                }
             }
-            }
-    }
+}
+}
+}
 
 
     

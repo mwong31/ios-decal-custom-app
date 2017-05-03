@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550F28E81EB9504700AD2F73 /* Galantis - Runaway (Gioni Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28E71EB9504700AD2F73 /* Galantis - Runaway (Gioni Remix).mp3 */; };
+		550F28EA1EB9505100AD2F73 /* Afterglow-(feat.-Soundmouse).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28E91EB9505100AD2F73 /* Afterglow-(feat.-Soundmouse).mp3 */; };
+		550F28EC1EB9511000AD2F73 /* TEGOS.RU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28EB1EB9511000AD2F73 /* TEGOS.RU.mp3 */; };
+		550F28EE1EB9511700AD2F73 /* Technicolour Beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28ED1EB9511700AD2F73 /* Technicolour Beat.mp3 */; };
+		550F28F01EB9511E00AD2F73 /* 02 Swim and Sleep (Like a Shark).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28EF1EB9511E00AD2F73 /* 02 Swim and Sleep (Like a Shark).mp3 */; };
+		550F28F21EB9512700AD2F73 /* Crush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28F11EB9512700AD2F73 /* Crush.mp3 */; };
+		550F28F41EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28F31EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 */; };
+		550F28F61EB9513B00AD2F73 /* 01 See Her Out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 550F28F51EB9513B00AD2F73 /* 01 See Her Out.mp3 */; };
 		557D9B941EB5B11B007DAB71 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D9B931EB5B11B007DAB71 /* StoreKit.framework */; };
 		557D9B961EB5B121007DAB71 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D9B951EB5B121007DAB71 /* MediaPlayer.framework */; };
 		557D9BAD1EB5C0A2007DAB71 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D9BAC1EB5C0A2007DAB71 /* MusicTableViewController.swift */; };
@@ -42,6 +50,11 @@
 		55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F131E9EEAE100E80DD8 /* MoodViewController.swift */; };
 		55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */; };
 		55FD7F191E9F057E00E80DD8 /* ActivityForMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */; };
+		861806641EB8711800FF0D0A /* stressedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861806631EB8711800FF0D0A /* stressedView.swift */; };
+		8618066C1EB93A5B00FF0D0A /* lateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8618066B1EB93A5B00FF0D0A /* lateView.swift */; };
+		861CCA2C1EB7F9E70072F6CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CCA2B1EB7F9E70072F6CF /* Constants.swift */; };
+		86419ED51EB81E8000F70799 /* tiredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86419ED41EB81E8000F70799 /* tiredView.swift */; };
+		86419ED71EB867BD00F70799 /* happyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86419ED61EB867BD00F70799 /* happyView.swift */; };
 		866E996A1EAEE09700E17885 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E99691EAEE09700E17885 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +76,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		550F28E71EB9504700AD2F73 /* Galantis - Runaway (Gioni Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Galantis - Runaway (Gioni Remix).mp3"; sourceTree = "<group>"; };
+		550F28E91EB9505100AD2F73 /* Afterglow-(feat.-Soundmouse).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Afterglow-(feat.-Soundmouse).mp3"; sourceTree = "<group>"; };
+		550F28EB1EB9511000AD2F73 /* TEGOS.RU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TEGOS.RU.mp3; sourceTree = "<group>"; };
+		550F28ED1EB9511700AD2F73 /* Technicolour Beat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Technicolour Beat.mp3"; sourceTree = "<group>"; };
+		550F28EF1EB9511E00AD2F73 /* 02 Swim and Sleep (Like a Shark).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Swim and Sleep (Like a Shark).mp3"; sourceTree = "<group>"; };
+		550F28F11EB9512700AD2F73 /* Crush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crush.mp3; sourceTree = "<group>"; };
+		550F28F31EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Heartlines [Tak3da.com].mp3"; sourceTree = "<group>"; };
+		550F28F51EB9513B00AD2F73 /* 01 See Her Out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 See Her Out.mp3"; sourceTree = "<group>"; };
 		557D9B931EB5B11B007DAB71 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		557D9B951EB5B121007DAB71 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		557D9BA61EB5BDBF007DAB71 /* mental-health-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mental-health-app-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -106,6 +127,11 @@
 		55FD7F161E9EF19700E80DD8 /* MoodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		55FD7F181E9F057E00E80DD8 /* ActivityForMoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityForMoodViewController.swift; sourceTree = "<group>"; };
 		6AC9E27E6915265633FDBA24 /* Pods-mental-health-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mental-health-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-mental-health-app/Pods-mental-health-app.release.xcconfig"; sourceTree = "<group>"; };
+		861806631EB8711800FF0D0A /* stressedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stressedView.swift; sourceTree = "<group>"; };
+		8618066B1EB93A5B00FF0D0A /* lateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lateView.swift; sourceTree = "<group>"; };
+		861CCA2B1EB7F9E70072F6CF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		86419ED41EB81E8000F70799 /* tiredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tiredView.swift; sourceTree = "<group>"; };
+		86419ED61EB867BD00F70799 /* happyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = happyView.swift; sourceTree = "<group>"; };
 		866E99691EAEE09700E17885 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		BBB3C43858A8DEBAA2F39A09 /* Pods-mental-health-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mental-health-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mental-health-app/Pods-mental-health-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,6 +244,9 @@
 		55FD7EE01E9EE80200E80DD8 /* mental-health-app */ = {
 			isa = PBXGroup;
 			children = (
+				861806651EB9243B00FF0D0A /* lackOfSelfEsteem */,
+				861806551EB86DEF00FF0D0A /* homesickSongs */,
+				861CCA2B1EB7F9E70072F6CF /* Constants.swift */,
 				55F81D821EB5D7F5007738C2 /* AdventureSongs */,
 				55F81D7B1EB5D795007738C2 /* RelaxingSongs */,
 				55F81D6E1EB5D584007738C2 /* FoodSongs */,
@@ -260,6 +289,10 @@
 				5583A70F1EA052A9003F7C9E /* PlacesActivityViewController.swift */,
 				55AA97281EB4095F000D7EBF /* BadGradeViewController.swift */,
 				557D9BAC1EB5C0A2007DAB71 /* MusicTableViewController.swift */,
+				86419ED41EB81E8000F70799 /* tiredView.swift */,
+				86419ED61EB867BD00F70799 /* happyView.swift */,
+				861806631EB8711800FF0D0A /* stressedView.swift */,
+				8618066B1EB93A5B00FF0D0A /* lateView.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -285,6 +318,36 @@
 				55CA29081EB2A98500FFF61B /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		861806521EB86D0600FF0D0A /* stressedSongs */ = {
+			isa = PBXGroup;
+			children = (
+				550F28ED1EB9511700AD2F73 /* Technicolour Beat.mp3 */,
+				550F28EF1EB9511E00AD2F73 /* 02 Swim and Sleep (Like a Shark).mp3 */,
+				550F28E91EB9505100AD2F73 /* Afterglow-(feat.-Soundmouse).mp3 */,
+			);
+			name = stressedSongs;
+			sourceTree = "<group>";
+		};
+		861806551EB86DEF00FF0D0A /* homesickSongs */ = {
+			isa = PBXGroup;
+			children = (
+				550F28F11EB9512700AD2F73 /* Crush.mp3 */,
+				550F28F31EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 */,
+				550F28F51EB9513B00AD2F73 /* 01 See Her Out.mp3 */,
+			);
+			name = homesickSongs;
+			sourceTree = "<group>";
+		};
+		861806651EB9243B00FF0D0A /* lackOfSelfEsteem */ = {
+			isa = PBXGroup;
+			children = (
+				550F28EB1EB9511000AD2F73 /* TEGOS.RU.mp3 */,
+				550F28E71EB9504700AD2F73 /* Galantis - Runaway (Gioni Remix).mp3 */,
+				861806521EB86D0600FF0D0A /* stressedSongs */,
+			);
+			name = lackOfSelfEsteem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,23 +467,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550F28F21EB9512700AD2F73 /* Crush.mp3 in Resources */,
+				550F28E81EB9504700AD2F73 /* Galantis - Runaway (Gioni Remix).mp3 in Resources */,
 				55F81D761EB5D598007738C2 /* Strawberry Fields Forever.mp3 in Resources */,
 				55F81D811EB5D7C8007738C2 /* Sunday Candy.mp3 in Resources */,
 				55F81D871EB5D803007738C2 /* Harry Potter.mp3 in Resources */,
 				55F81D881EB5D803007738C2 /* Indiana Jones Theme Song.mp3 in Resources */,
+				550F28EE1EB9511700AD2F73 /* Technicolour Beat.mp3 in Resources */,
 				55F81D781EB5D59E007738C2 /* Distant Fortune - Daniel Kadawatha [Acoustic Group Music].mp3 in Resources */,
 				55FD7F101E9EE87600E80DD8 /* Main.storyboard in Resources */,
 				55F81D6B1EB5D4E8007738C2 /* Beach Sounds.mp3 in Resources */,
 				55FD7EEC1E9EE80200E80DD8 /* LaunchScreen.storyboard in Resources */,
 				55F81D6D1EB5D4E8007738C2 /* Rain Sounds.mp3 in Resources */,
+				550F28EC1EB9511000AD2F73 /* TEGOS.RU.mp3 in Resources */,
 				55F81D7A1EB5D78D007738C2 /* 5 Minute Meditation.mp3 in Resources */,
+				550F28EA1EB9505100AD2F73 /* Afterglow-(feat.-Soundmouse).mp3 in Resources */,
 				55F81D731EB5D598007738C2 /* banana pancakes.mp3 in Resources */,
 				55F81D801EB5D7C8007738C2 /* I'm Yours.mp3 in Resources */,
 				55F81D6C1EB5D4E8007738C2 /* Ella's Lullaby.mp3 in Resources */,
 				55F81D7F1EB5D7C8007738C2 /* Hey Soul Sister.mp3 in Resources */,
 				55FD7EE91E9EE80200E80DD8 /* Assets.xcassets in Resources */,
 				55F81D751EB5D598007738C2 /* Pork and Beans.mp3 in Resources */,
+				550F28F01EB9511E00AD2F73 /* 02 Swim and Sleep (Like a Shark).mp3 in Resources */,
 				55F81D741EB5D598007738C2 /* Eat It.mp3 in Resources */,
+				550F28F41EB9513100AD2F73 /* Heartlines [Tak3da.com].mp3 in Resources */,
+				550F28F61EB9513B00AD2F73 /* 01 See Her Out.mp3 in Resources */,
 				55F81D8A1EB5D803007738C2 /* Star Wars.mp3 in Resources */,
 				55F81D891EB5D803007738C2 /* Pirates Of The Caribbean.mp3 in Resources */,
 			);
@@ -497,12 +568,17 @@
 			files = (
 				55FD7F191E9F057E00E80DD8 /* ActivityForMoodViewController.swift in Sources */,
 				55AA97291EB4095F000D7EBF /* BadGradeViewController.swift in Sources */,
+				8618066C1EB93A5B00FF0D0A /* lateView.swift in Sources */,
 				557D9BAD1EB5C0A2007DAB71 /* MusicTableViewController.swift in Sources */,
 				866E996A1EAEE09700E17885 /* TableViewCell.swift in Sources */,
+				861CCA2C1EB7F9E70072F6CF /* Constants.swift in Sources */,
+				86419ED51EB81E8000F70799 /* tiredView.swift in Sources */,
 				5583A7101EA052A9003F7C9E /* PlacesActivityViewController.swift in Sources */,
 				557D9BAF1EB5C15D007DAB71 /* MusicTableViewCell.swift in Sources */,
+				86419ED71EB867BD00F70799 /* happyView.swift in Sources */,
 				55FD7EE41E9EE80200E80DD8 /* ViewController.swift in Sources */,
 				55FD7F171E9EF19700E80DD8 /* MoodCollectionViewCell.swift in Sources */,
+				861806641EB8711800FF0D0A /* stressedView.swift in Sources */,
 				55FD7EE21E9EE80200E80DD8 /* AppDelegate.swift in Sources */,
 				55FD7F141E9EEAE100E80DD8 /* MoodViewController.swift in Sources */,
 			);
@@ -660,7 +736,7 @@
 				);
 				INFOPLIST_FILE = "mental-health-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app1";
+				PRODUCT_BUNDLE_IDENTIFIER = marisawong1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "mental-health-app/mental-health-app-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -682,7 +758,7 @@
 				);
 				INFOPLIST_FILE = "mental-health-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MarisaWong.mental-health-app1";
+				PRODUCT_BUNDLE_IDENTIFIER = marisawong1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "mental-health-app/mental-health-app-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
