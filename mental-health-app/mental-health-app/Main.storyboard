@@ -201,7 +201,7 @@
                                     <constraint firstAttribute="width" constant="92" id="6px-LR-ca3"/>
                                     <constraint firstAttribute="height" constant="77" id="fwp-Ot-wbk"/>
                                 </constraints>
-                                <state key="normal" title="Button" backgroundImage="play"/>
+                                <state key="normal" backgroundImage="play"/>
                                 <connections>
                                     <action selector="musicButton:" destination="wEL-hr-zeT" eventType="touchUpInside" id="ORn-QB-Sa0"/>
                                 </connections>
@@ -463,7 +463,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gwl-JK-csW" id="nNb-kb-QvC">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhQ-He-3OU">

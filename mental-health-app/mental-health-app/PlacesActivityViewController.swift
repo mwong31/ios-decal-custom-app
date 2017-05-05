@@ -38,11 +38,11 @@ class PlacesActivityViewController: UIViewController, MKMapViewDelegate, CLLocat
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.startUpdatingLocation()
-        self.mapView.showsUserLocation = true
-        
+        //self.mapView.showsUserLocation = true
+        print("ABOUT TO PERFORM SEARCH!!!!")
         performSearch()
         
-        self.locationManager.stopUpdatingLocation()
+       // self.locationManager.stopUpdatingLocation()
     }
     
     
@@ -50,7 +50,7 @@ class PlacesActivityViewController: UIViewController, MKMapViewDelegate, CLLocat
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations[0]
-        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.08, 0.08)
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.02, 0.02)
         let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
         mapView.setRegion(region, animated: true)
@@ -59,7 +59,7 @@ class PlacesActivityViewController: UIViewController, MKMapViewDelegate, CLLocat
     
     
     func performSearch() {
-        
+        print("I AM PERFORMING A SEARCH")
         matchingItems.removeAll()
         let request = MKLocalSearchRequest()
         request.naturalLanguageQuery = searchWord
